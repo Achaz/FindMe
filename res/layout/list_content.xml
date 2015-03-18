@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kampala1" />
+
+            <TextView
+                style="@style/ImageTitle"
+                android:text="Kampala" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kampala2" />
+
+            <TextView
+                style="@style/ImageTitle"
+                android:text="Kampala" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kampala3" />
+
+            <TextView
+                style="@style/ImageTitle"
+                android:text="Kampala" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kampala4" />
+
+            <TextView
+                style="@style/ImageTitle"
+                android:text="Kampala" />
+        </RelativeLayout>
+ </ViewFlipper>
+<ListView  
+	android:id="@android:id/list" 
+	android:padding="5.0dip" 
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent" 
+	android:layout_below="@+id/view_flipper"
+	android:cacheColorHint="@android:color/transparent"
+	android:divider="@color/et_grey1" 
+	android:dividerHeight="1.0dip" />
+</RelativeLayout>
+
+
+

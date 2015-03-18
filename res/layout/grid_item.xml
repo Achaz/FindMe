@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/project_card_color" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:showDividers="none">
+    <RelativeLayout 
+		android:padding="4.0dip" 
+		android:layout_width="@dimen/project_card_min_width" 
+		android:layout_height="wrap_content" 
+		android:layout_centerInParent="true">
+        <com.etsy.android.grid.util.DynamicHeightImageView 
+			android:id="@+id/listicon" 
+			android:background="@android:color/transparent" 
+			android:layout_width="135.0sp" 
+			android:layout_height="135.0sp" 
+			android:src="@drawable/placeholder" 
+			android:layout_alignParentTop="true" 
+			android:layout_centerHorizontal="true" />
+        <ImageButton 
+			android:id="@+id/overflowButton" 
+			android:paddingLeft="20.0dip" 
+			android:paddingTop="5.0dip" 
+			android:paddingRight="10.0dip" 
+			android:paddingBottom="20.0dip" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_marginLeft="-20.0dip" 
+			android:src="@drawable/overflow" 
+			android:layout_below="@+id/listicon" 
+			android:layout_alignParentLeft="false" 
+			android:layout_alignParentRight="true" 
+			android:layout_alignParentBottom="false" 
+			android:contentDescription="Overflow Menu" 
+			style="@style/TransparentButton" />
+        <TextView 
+			android:ellipsize="end" 
+			android:id="@+id/projectName" 
+			android:paddingLeft="@dimen/project_card_padding" 
+			android:paddingTop="5.0dip" 
+			android:paddingRight="10.0dip" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_marginRight="10.0dip" 
+			android:text="Main text" 
+			android:maxLines="2" 
+			android:singleLine="true" 
+			android:layout_below="@id/listicon" 
+			android:marqueeRepeatLimit="marquee_forever" 
+			style="@style/PrimaryText" />
+        <TextView 
+			android:id="@+id/companyName" 
+			android:paddingLeft="@dimen/project_card_padding" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="subtitle text" 
+			android:layout_below="@id/projectName" 
+			android:layout_alignParentTop="false" 
+			style="@style/SecondaryText" />
+        <TextView 
+			android:id="@+id/Name" 
+			android:paddingLeft="@dimen/project_card_padding" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="SUB TEXT" 
+			android:textColor="@color/publish_orange" 
+			android:layout_below="@id/companyName" 
+			android:layout_alignParentTop="false" 
+			style="@style/SecondaryTextLime" />
+        <RatingBar 
+			android:id="@+id/ratingBar1" 
+			android:paddingLeft="2.0dip" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:progress="95" 
+			android:numStars="5" 
+			android:isIndicator="false" 
+			android:layout_below="@id/Name" 
+			android:layout_alignParentTop="false" 
+			style="?android:attr/ratingBarStyleSmall" />
+    </RelativeLayout>
+</RelativeLayout>

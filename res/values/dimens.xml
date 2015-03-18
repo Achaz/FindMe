@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="card_internal_padding">7.0dip</dimen>
+    <dimen name="card_left_margin">9.0dip</dimen>
+    <dimen name="card_right_margin">8.0dip</dimen>
+    <dimen name="card_top_margin">10.0dip</dimen>
+    <dimen name="category_height">82.0dip</dimen>
+    <dimen name="mm_up_arrow_margin">-16dp</dimen>
+    <dimen name="slidingmenu_shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="category_text_height">42.0dip</dimen>
+    <dimen name="padding_to_center_left">0.0dip</dimen>
+    <dimen name="padding_to_center_right">0.0dip</dimen>
+    <dimen name="post_add_photos_text_size">22.0sp</dimen>
+    <dimen name="post_photos_text_size">14.0sp</dimen>
+    <dimen name="posting_hub_generic_margin">10.0dip</dimen>
+    <dimen name="posting_hub_image_height">250.0dip</dimen>
+    <dimen name="extra_small_padding">2.0dip</dimen>
+    <dimen name="form_internal_padding">10.0dip</dimen>
+    <dimen name="forms_ac_text_size">16.0sp</dimen>
+    <dimen name="forms_medium_text_size">18.0sp</dimen>
+    <dimen name="forms_optional_height">64.0dip</dimen>
+    <dimen name="forms_small_text_size">14.0sp</dimen>
+    <dimen name="forms_text_size">22.0sp</dimen>
+    <dimen name="forms_xsmall_text_size">11.0sp</dimen>
+    <dimen name="list_padding">10.0dip</dimen>
+    <dimen name="listing_list_height">104.0dip</dimen>
+    <dimen name="text_size_ui_title">60.0sp</dimen>
+    <dimen name="text_size_ui_title1">30.0sp</dimen>
+    <dimen name="text_size_ui_title2">20.0sp</dimen>
+    <dimen name="text_size_ui_title3">15.0sp</dimen>
+    <dimen name="text_size_ui_details">10.0sp</dimen>
+    <dimen name="project_card_min_height">80.0dip</dimen>
+    <dimen name="project_card_min_width">150.0dip</dimen>
+    <dimen name="project_card_padding">5.0dip</dimen>
+    <dimen name="card_primary_text_size">18.0sp</dimen>
+    <dimen name="card_secondary_text_size">12.0sp</dimen>
+
+</resources>

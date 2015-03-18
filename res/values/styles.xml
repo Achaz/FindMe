@@ -1,0 +1,100 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="ImageTitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">#99000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">sans</item>
+    </style> 
+   <!--  <style name="Widget.ActionBar" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+    </style>  -->
+	
+	<style name="Widget.Light" />
+	
+    <style name="Widget.Light.ActionBar" parent="@style/Widget.Sherlock.Light.ActionBar.Solid">
+    </style>
+
+  <!--  <style name="Widget.ActionBar.Transparent">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="background">@android:color/transparent</item>
+    </style>   -->
+
+  <!--   <style name="Widget.Light.ActionBar.Transparent">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="background">@android:color/transparent</item>
+    </style>  -->
+    <declare-styleable name="MaterialMenuView">
+        <attr name="mm_color" format="color"/>
+        <attr name="mm_scale" format="integer"/>
+        <attr name="mm_transformDuration" format="integer"/>
+        <attr name="mm_pressedDuration" format="integer"/>
+        <attr name="mm_strokeWidth" format="integer"/>
+        <attr name="mm_rtlEnabled" format="boolean"/>
+    </declare-styleable>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="TransparentButton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button_transparent</item>
+    </style>
+    <style name="PrimaryText">
+        <item name="android:textSize">@dimen/card_primary_text_size</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+    <style name="SecondaryText" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">@dimen/card_secondary_text_size</item>
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+    <style name="PrimaryTextLime">
+        <item name="android:textSize">@dimen/card_primary_text_size</item>
+        <item name="android:textColor">@color/lime_dark</item>
+    </style>
+    <style name="SecondaryTextLime" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">@dimen/card_secondary_text_size</item>
+        <item name="android:textColor">@color/lime_dark</item>
+    </style>
+    <style name="Theme.TranslucentActionBar" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/Widget.ActionBar.Transparent</item>
+        <item name="android:actionBarSize">55dp</item>
+        <item name="actionBarSize">55dp</item>
+    </style>
+    <style name="Theme.TranslucentActionBar.ActionBar" parent="@style/Theme.TranslucentActionBar" />
+    <style name="Theme.TranslucentActionBar.ActionBar.Overlay" parent="@style/Theme.TranslucentActionBar.ActionBar">
+        <item name="android:actionBarStyle">@style/Widget.ActionBar.Transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarSize">55dp</item>
+        <item name="actionBarSize">55dp</item>
+    </style>
+    <style name="Widget.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_background</item>
+    </style>
+    <style name="Widget.ActionBar.Transparent" parent="@style/Widget.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/MyTheme.TitleTextStyle</item>
+    </style>
+    <style name="MyTheme.TitleTextStyle" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">#4ccfff</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

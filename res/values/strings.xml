@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FindMe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="country_arrays">
+        <item>MobilePhones-Tablets</item>
+        <item>Electronics-Video</item>
+        <item>Home-Furniture-Garden</item>
+        <item>Fashion-Beauty</item>
+        <item>Hobbies-Art-Sport</item>
+        <item>Animals-Pets</item>
+        <item>Vechicles</item>
+        <item>RealEstate</item>
+        <item>Jobs-Services</item>
+        <item>Restaurants</item>
+        <item>Bars</item>
+        <item>Hotels</item>
+        <item>Schools</item>
+        <item>Directory-Personals</item>
+    </string-array>
+    <string name="banner_ad_unit_id">ca-app-pub-5143974649897440/2720109612</string>
+    <string name="details_page_banner">ca-app-pub-5143974649897440/4196842818</string>
+    <string name="category_list_banner">ca-app-pub-5143974649897440/5673576019</string>
+    <string name="publish">Submit a Free Ad</string>
+    <string name="publish_add_photos">Add Photos</string>
+    <string name="publish_add_photos_tip">Ads with photos sell up to 5x more</string>
+    <string name="publish_additional_info">Additional info</string>
+    <string name="publish_contact">Add your Info</string>
+    <string name="publish_describe_ad">Describe your Item</string>
+    <string name="publish_description">Description</string>
+    <string name="publish_description_min_chars">The description should be at least %1$s chars</string>
+    <string name="publish_description_required">The description is required</string>
+    <string name="publish_email">E-mail</string>
+    <string name="publish_email_address_hint">E-mail address</string>
+    <string name="publish_email_invalid">Provide a valid e-mail</string>
+    <string name="publish_email_required">Provide your e-mail address</string>
+    <string name="publish_location_hint">Your approximate location will be shared</string>
+    <string name="publish_location_required">Providing your location helps you sell faster</string>
+    <string name="publish_location_show_on_map">Include a map of my location</string>
+    <string name="publish_lose_information">"Start over again? Your ad won't be submitted."</string>
+    <string name="publish_min_chars">(min. %1$s chars.)</string>
+    <string name="publish_name_hint">Your Name</string>
+    <string name="publish_name_required">Provide your name</string>
+    <string name="publish_one">1</string>
+    <string name="publish_optionals">OPTIONAL INFORMATION</string>
+    <string name="publish_phone">Phone</string>
+    <string name="publish_phone_hint">Phone Number</string>
+    <string name="publish_phone_invalid">Provide a valid phone number</string>
+    <string name="publish_phone_tooltip">Will be published with the ad</string>
+    <string name="publish_photos_message">Items with photos sell 5x faster. Do you want to add photos?</string>
+    <string name="publish_photos_no">No, submit now</string>
+    <string name="publish_photos_yes">Yes, add photos</string>
+    <string name="publish_post">Submit Now</string>
+    <string name="publish_price_hint">Price</string>
+    <string name="publish_price_number_hint">0.00</string>
+    <string name="publish_price_required">A price is required, or make the item Free</string>
+    <string name="publish_provinces">Provinces</string>
+    <string name="publish_recommends">OLX Recommends</string>
+    <string name="publish_save_draft">Saved as draft</string>
+    <string name="publish_select_category">Select a Category</string>
+    <string name="publish_select_location">Select Location</string>
+    <string name="publish_select_neighbourhood">Select Neighbourhood</string>
+    <string name="publish_select_source">Select Source</string>
+    <string name="publish_three">3</string>
+    <string name="publish_title">Title</string>
+    <string name="publish_title_min_chars">The title should be at least %1$s chars</string>
+    <string name="publish_title_required">The title is required</string>
+    <string name="publish_toast_category_first">First, select a category for your item</string>
+    <string name="publish_tooltip_description">Tell others more about yout item. How old it is, why you are selling it or if it still has warranty.</string>
+    <string name="publish_tooltip_email">"Your real e-mail address, so we can send you responses to your item.
+Not published with your ad, not visible to anyone."</string>
+    <string name="publish_tooltip_location">Select the city that you are selling the item in, so buyers know where to get it.</string>
+    <string name="publish_tooltip_map">Showing your location on a map helps buyers understand where in the city you are selling the item.</string>
+    <string name="publish_tooltip_name">"Your real name helps buyers understand who they are dealing with.
+Published with your ad, visible to everyone."</string>
+    <string name="publish_tooltip_phone">"A phone number allows buyers to call or message you directly.
+Published with your ad, visible to everyone."</string>
+    <string name="publish_tooltip_price">A realistic and competitive price attracts more buyers.</string>
+    <string name="publish_tooltip_title">"Use brand, model, condition and other keywords to make your item easy to find.
+\"Samsung Galaxy S4 16GB no scratches\""</string>
+    <string name="publish_top_cities">Top Cities</string>
+    <string name="publish_two">2</string>
+    <string name="publish_what_are_you_selling">Title: What are you selling?</string>
+    <string name="publish_what_special">Description: What makes your item unique?</string>
+
+</resources>
